@@ -1,0 +1,22 @@
+# Dependencias
+node_modules
+
+# Compilado
+dist
+dist-ssr
+
+# Variables de entorno (NUNCA subir credenciales)
+.env
+.env.local
+.env.*.local
+
+# Editores y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.log
+npm-debug.log*
+
+# PWA generados
+dev-dist
